@@ -1,0 +1,5 @@
+deposit = float(input())
+time = int(input())
+yearly_percent = float(input())
+end_sum = deposit + time*((deposit*yearly_percent/100)/12)
+print(end_sum)
